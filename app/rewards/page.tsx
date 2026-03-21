@@ -59,7 +59,7 @@ export default function Home() {
                   variant="contained"
                   sx={{ backgroundColor: '#5B5CFF', color: '#fff', fontWeight: 600, py: 1.5, px: 4, '&:hover': { backgroundColor: '#4A4BE8' } }}
                   startIcon={<PlayArrow />}
-                  onClick={() => window.open('https://play.google.com/store/apps/details?id=com.tikcash.dailymoney.rewards.watchvideoearnmoney', '_blank')}
+                  // onClick={() => window.open('https://play.google.com/store/apps/details?id=com.tikcash.dailymoney.rewards.watchvideoearnmoney', '_blank')}
                 >
                   Start Earning Now
                 </Button>

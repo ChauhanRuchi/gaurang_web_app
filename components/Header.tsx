@@ -43,7 +43,9 @@ export default function Header() {
                 <ListItemText primary={link.label} />
               </ListItemButton>
             ))}
-            <ListItemButton onClick={() => window.open('https://play.google.com/store/apps/details?id=com.tikcash.dailymoney.rewards.watchvideoearnmoney', '_blank')}>
+            <ListItemButton 
+            // onClick={() => window.open('https://play.google.com/store/apps/details?id=com.tikcash.dailymoney.rewards.watchvideoearnmoney', '_blank')}
+            >
               <Button
                 variant="contained"
                 fullWidth
@@ -93,7 +95,7 @@ export default function Header() {
                 fontWeight: 600,
                 '&:hover': { backgroundColor: '#f0f0f0' },
               }}
-              onClick={() => window.open('https://play.google.com/store/apps/details?id=com.tikcash.dailymoney.rewards.watchvideoearnmoney', '_blank')}
+              // onClick={() => window.open('https://play.google.com/store/apps/details?id=com.tikcash.dailymoney.rewards.watchvideoearnmoney', '_blank')}
             >
               Start Earning
             </Button>
