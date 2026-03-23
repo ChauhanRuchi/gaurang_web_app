@@ -11,7 +11,6 @@ export default function TermsPage() {
   return (
     <div>
       <Header />
-<h1>hgdd</h1>
       {/* Hero */}
       <Box sx={{ background: 'linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%)', color: '#1f2937', py: 6 }}>
         <Container maxWidth="lg">
